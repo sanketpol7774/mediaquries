@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+ 
+.rapper{
+    height: 100%;
+    width: 100%;
+
+}
+.navigantion{
+    height: 100px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftnav{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.leftnav{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.midnav{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.rightnav{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+.rightnav i{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sanket{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: salmon;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color:aquamarine;
+
+}
+
+.rightnav button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+@media (max-width:426px) {
+   
+    .navigantion{
+        height: 70px;
+        width: 100%;
+
+    }
+    .midnav{
+        display: none;
+    }
+
+    .leftnav{
+        width: 50%;
+    }
+    .rightnav{
+        width: 50%;
+    }
+
+    .sanket{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
